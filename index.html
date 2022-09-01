@@ -79,17 +79,26 @@
       padding-top: 10%;
       color: red;
     }
-
-    .balance {
-      padding-top: 78%;
+    @media only screen and (min-width: 600px) {
+      .balance {
+      padding-top: 10%;
+    }
+    }
+    @media only screen and (max-width: 600px) {
+      .balance {
+      padding-top: 70%;
+    }
     }
 
+    
+
+   
     .title2 {
       color: #e320ce;
     }
 
     .time {
-      color: rgb(88, 199, 254);
+      color: rgb(12, 13, 13);
     }
   </style>
 </head>
@@ -109,7 +118,11 @@
       <div class="carousel-item active">
         <img src="img/img1.jpeg" class="d-block  yourCarosel " alt="...">
         <div class="carousel-caption">
-          <h1 class="title">PERUVANNAMOOZHI SMALL HE PROJECT ( 2×3 MW)</h1>
+          <h1 class="title">PERUVANNAMOOZHI SMALL HE PROJECT 
+            <br>
+            ( 2×3 MW)
+          </h1>
+          
           <h2 class="balance">
             <span class="title2">
               Balance Period for Completion
